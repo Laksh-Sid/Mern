@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+	background-image: url("./cafe.jpg");
+	background-repeat: no-repeat;
+	background-image: cover;
+  
+}
+
+.logo {
+  justify-content: start;
+  align-items: left;
+  /* padding-right: 500px; */
+  padding: 30px 300px;
+}
+.flex {
+  display: flex;
+  background-color: olivedrab;
+  height:104px;
+  width: 1230px;
+  gap:100px;
+  text-align: right;
+  justify-content: right;
+}
+
+.f1 {
+  padding: 35px;
+  font-size: 25px;
+}
+
+.f2 {
+  padding: 35px;
+  font-size: 25px;
+}
+
+.f3 {
+  padding: 35px;
+  font-size: 25px;
+}
+
+
+

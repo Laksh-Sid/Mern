@@ -1,0 +1,28 @@
+body{
+	background-image: url("./trip.jpg");
+	background-repeat: no-repeat;
+	background-image: cover;
+	
+}
+
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+/* body {
+    background-image: url("C:/Users/laksh/OneDrive/College/MERN/reactapp-router/my-project/src/image/london.jpg");
+    background-repeat: no-repeat;
+    background-image: cover;
+    
+  
+} */
+
+.mainflex{
+    background-color: antiquewhite;
+    height:100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
