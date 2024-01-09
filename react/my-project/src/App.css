@@ -5,7 +5,8 @@
 }
 
 body{
-	background-image: url("./cafe.jpg");
+  background-color: rgb(227, 174, 192);
+  background-image: url("./eiffel.jpg");
 	background-repeat: no-repeat;
 	background-image: cover;
   
@@ -19,12 +20,13 @@ body{
 }
 .flex {
   display: flex;
-  background-color: olivedrab;
+  background-color: white;
   height:104px;
   width: 1230px;
-  gap:100px;
-  text-align: right;
+  gap:10px;
+  align-items: right;
   justify-content: right;
+  
 }
 
 .f1 {
@@ -41,6 +43,46 @@ body{
   padding: 35px;
   font-size: 25px;
 }
+
+
+.f4 {
+  padding: 35px;
+  font-size: 25px;
+}
+
+.f5 {
+  padding: 35px;
+  font-size: 25px;
+}
+
+#p1 {
+  font-size: 96px;
+  font-family: prompt;
+  color: white;
+  font-weight: 600px;
+  padding-left: 140px;
+  padding-top: 140px;
+}
+
+#p2 {
+  font-size: 30px;
+  font-family: Lato;
+  padding-left: 140px;
+  color: whitesmoke;
+
+}
+
+.b1 {
+  display: flex;
+  width: 800px;
+  padding-left: 140px;
+  padding-top: 100px;
+  color: white;
+}
+
+
+
+
 
 
 
