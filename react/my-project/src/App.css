@@ -11,7 +11,19 @@ body{
 	background-image: cover;
   
 }
-
+.body
+{
+  display: flex;
+  padding: 0px 30px;
+}
+.home-content{
+  padding: 10px 20px;
+}
+.home-img{
+  padding-left: 200px;
+  padding-top: 100px;
+  /* height: 600px; */
+}
 .logo {
   justify-content: start;
   align-items: left;
@@ -53,21 +65,25 @@ body{
 .f5 {
   padding: 35px;
   font-size: 25px;
-}
 
+}
+#b1{
+  padding: 5px 40px;
+  background:none;
+  border-radius: 25px;
+  font-size: 20px;
+}
 #p1 {
   font-size: 96px;
   font-family: prompt;
   color: white;
   font-weight: 600px;
-  padding-left: 140px;
-  padding-top: 140px;
+  padding-top: 100px;
 }
 
 #p2 {
   font-size: 30px;
   font-family: Lato;
-  padding-left: 140px;
   color: whitesmoke;
 
 }
